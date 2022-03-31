@@ -1,0 +1,40 @@
+body{
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 65px;
+    color: orange;
+    font-family: sans-serif;
+    font-style: oblique;
+    line-height: 100px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+p {
+    font-weight: 600;
+    font-size:3em;
+}
+
+ul {
+    background-color: gray;
+    color: black;
+}
+
+.background-style {
+    background-color: rgb(0, 100, 50);
+}
+
+#amarelo {
+    background-color: yellow;
+}
+
+#vermelho {
+    background-color: red;
+}
+
+#marrom {
+    background-color: brown;
+}
