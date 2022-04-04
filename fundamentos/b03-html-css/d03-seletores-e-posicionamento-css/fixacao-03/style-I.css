@@ -1,0 +1,20 @@
+h1, p {
+    text-align: center;
+}
+
+ol {
+    list-style: none;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    background-color: yellow;
+    text-decoration: none;
+}
+
+a:active {
+    font-family: fantasy;
+}

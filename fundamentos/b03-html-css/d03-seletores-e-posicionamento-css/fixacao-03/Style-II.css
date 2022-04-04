@@ -1,0 +1,56 @@
+#cor-primaria h3 {
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+#cor-secundaria h3 {
+    font-size: 25px;
+    font-family: cursive;
+    font-style: none;
+}
+
+#cor-complementar h3 {
+    padding: 30px 30px 30px 0;
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+#cor-escura h3 {
+    font-size: 25px;
+    font-family: cursive;
+    font-style: none;
+}
+
+#cor-clara h3 {
+    font-size: 25px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+#cor-primaria:hover {
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+#cor-secundaria:hover {
+    border: 1px solid orange;
+    background-color: orange;
+}
+
+#cor-complementar:hover {
+    border: 1px solid green;
+    background-color: green;
+}
+
+#cor-escura:hover {
+    border: 1px solid purple;
+    background-color: purple;
+}
+
+#cor-clara:hover {
+    border: 1px solid yellow;
+    background-color: yellow;
+}
+
