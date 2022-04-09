@@ -37,16 +37,31 @@
 
 
 // ------------ EXERCICIO 03 -----------------
-// ORDEM DECRESCENTE
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let multiplicacao = [];
+// MULTIPLICA
 
-for (let index = 1; index < numbers.length; index += 1) {
-    for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
-      if (numbers[index] == numbers[secondIndex+1]) {
-        multiplicacao.push(numbers[index]*numbers[secondIndex]);
-      }
-    }
-  }
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let multiplicacao = [];
 
-  console.log(multiplicacao);
+// for (let index = 1; index < numbers.length; index += 1) {
+//     for (let secondIndex = 0; secondIndex < index; secondIndex += 1) {
+//       if (numbers[index] == numbers[secondIndex + 1]) {
+//         multiplicacao.push(numbers[index]*numbers[secondIndex]);
+//       }
+//     }
+// }
+// multiplicacao.push(numbers[numbers.length -1]*2);
+
+//   console.log(multiplicacao);
+
+// -----OU-----
+
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let multiplicados = [];
+// for(let index = 0; index < numbers.length; index += 1) {
+//   if(index === (numbers.length - 1)) {
+//     multiplicados.push(numbers[index] * 2);
+//   } else {
+//     multiplicados.push(numbers[index] * numbers[index + 1]);
+//   }
+// }
+// console.log(multiplicados);
