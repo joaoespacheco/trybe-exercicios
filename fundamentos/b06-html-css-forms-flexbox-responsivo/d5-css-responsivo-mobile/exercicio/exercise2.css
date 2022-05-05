@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    background-color: white;
+}
+
+header p {
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 10px 10px 10px;
+    list-style: none;
+}
+
+hr {
+    order:2;
+}
+
+footer {
+    margin: 15px 20px 20px 20px;
+    color: white;
+    order:3;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.aside-two,
+.main-content {
+    margin: 0 0 20px 20px;
+    color: white;
+}
+
+.aside-one {
+    margin: 15px 0 10px 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-two {
+    order:1
+}
+
+
+.aside-one li,
+.aside-two li {
+    list-style: none;
+}
+
+.main-content p {
+    text-align: justify;
+}
+
+@media screen and (max-width: 400px) {
+    header p {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+
+    h1 {
+        margin: 10px 0 0px 0;
+        font-size: 25px;
+    }
+
+    h2 {
+        margin: 0 0 5px;
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .aside-one li,
+    .aside-two li {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .main-content p {
+        margin: 10px 20px 0 0;
+        text-align: justify;
+    }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+    header p {
+        font-size: 25px;
+    }
+
+    nav ul li {
+        font-size: 20px;
+    }
+
+    h1 {
+        margin: 10px 0 0px 0;
+        font-size: 40px;
+    }
+
+    h2 {
+        margin: 0 0 5px;
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    .aside-one li,
+    .aside-two li {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .main-content p {
+        font-size: 20px;
+        margin: 10px 25px 0 0;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    header p {
+        font-size: 32px;
+    }
+
+    nav ul li {
+        font-size: 25px;
+    }
+
+    aside ul {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 15px 0 0 5px;
+        font-size: 40px;
+        margin: 0;
+    }
+
+    h2 {
+        text-align: center;
+        padding: 15px;
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    footer p {
+        font-size: 18px;
+    }
+
+    .aside-one li,
+    .aside-two li {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .main-content p {
+        font-size: 25px;
+        margin: 10px 25px 0 0;
+    }
+}

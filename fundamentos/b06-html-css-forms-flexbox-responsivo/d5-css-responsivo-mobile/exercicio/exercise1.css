@@ -1,0 +1,127 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+  margin: 10px;
+  }
+  
+  article {
+  
+  }
+  
+  h1 {
+        font-size: 25px
+  }
+  
+  p {
+      font-size: 20px;
+  }
+
+  h2 {
+  
+  }
+  
+  img {
+      max-width: 100%;
+  }
+  
+  main {
+  
+  }
+  
+  section {
+  
+  }
+  
+  figure {
+      margin: 10px 0;
+  }
+  
+  figcaption {
+    font-size: .8em;
+  }
+
+  @media screen and (min-width: 1000px) {
+      body {
+          background-color: gray;
+          margin: 20px;
+      }
+
+      h1 {
+          font-size: 40px;
+      }
+
+      h2 {
+          font-size: 32px;
+      }
+
+      p {
+          font-size: 25px;
+      }
+
+      figcaption {
+          font-size: 20px;
+      }
+
+      section.figures-container{
+          display: flex;
+          flex: 1 1 900px;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+      }
+
+      figure {
+          display: flex;
+          flex-direction: column;
+          flex-basis: 450px;
+      }
+
+  }
+
+  @media screen and (min-width: 1863px) {
+    body {
+        background-color: darkolivegreen;
+        margin: 40px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 32px;
+    }
+
+    article {
+        max-width: 1500px;
+        text-align: justify;
+    }
+
+    section.figures-container{
+        display: flex;
+        flex: 1 1 1500px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    figure {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 550px;
+    }
+
+
+  }
