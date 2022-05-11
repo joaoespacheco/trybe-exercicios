@@ -1,0 +1,48 @@
+html {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 10%;
+}
+
+#acima-footer {
+    display:block;
+    padding: 50px;
+}
+
+#estilo-01 {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#estilo-02 {
+    background-color: white;
+    color: black;
+}
+
+#estilo-03 {
+    background-color: red;
+    color: yellow;
+}
+
+#atributo-mudanca {
+    text-align: center;
+    top: 0;
+}
+
+
+.display {
+    display:inline-block;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.fonte {
+    width: 40%;
+}
