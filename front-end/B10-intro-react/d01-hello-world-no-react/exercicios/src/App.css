@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.footer {
+  color: red;
+  font-size: 20px;
+}
