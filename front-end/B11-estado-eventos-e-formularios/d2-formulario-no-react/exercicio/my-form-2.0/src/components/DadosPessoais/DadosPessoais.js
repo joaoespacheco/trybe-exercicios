@@ -19,7 +19,7 @@ class DadosPessoais extends React.Component {
           required={true}
           placeholder="Digite seu nome"
           handleChange={handleChange}
-          value={inputName.toUpperCase()}
+          value={inputName}
         />
         <InputText
           name="inputEmail"
